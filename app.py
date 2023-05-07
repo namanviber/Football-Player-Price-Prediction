@@ -3,8 +3,6 @@ import numpy as np
 import pickle
 import pandas as pd
 
-model = pickle.load(open('predictPrice.pkl', 'rb'))
-
 st.title('Football Player Price Prediction')
 big_club_options = [0,1]
 
