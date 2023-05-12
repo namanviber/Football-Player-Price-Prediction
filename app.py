@@ -22,6 +22,6 @@ def predict():
     label = price[0]
     print(type(label))
     print(label)
-    st.success('The Price of Player is : ' + str(label*100) + ' :thumbsup:')
+    st.success('The Price of Player is : ' + str(label) + ' :thumbsup:')
     
 trigger = st.button('Predict', on_click=predict)
